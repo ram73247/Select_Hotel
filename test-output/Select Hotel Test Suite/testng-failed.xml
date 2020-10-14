@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Select Hotel Test Suite]" parallel="classes">
+  <test thread-count="3" name="Test Classes(failed)" parallel="classes">
+    <classes>
+      <class name="SelectHotelTC.HomePageTC1">
+        <methods>
+          <include name="beforesuit"/>
+          <include name="beforMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verifytitle"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- SelectHotelTC.HomePageTC1 -->
+      <class name="SelectHotelTC.HomePageTC2">
+        <methods>
+          <include name="beforesuit"/>
+          <include name="beforMethod"/>
+          <include name="afterTest"/>
+          <include name="verifyRoomCategoryOperation5"/>
+          <include name="beforeTest"/>
+          <include name="verifyRoomCategoryOperation4"/>
+          <include name="verifyRoomCategoryOperation1"/>
+          <include name="verifyRoomCategoryOperation6"/>
+          <include name="verifyRoomTypeOptions"/>
+          <include name="verifyRoomCategoryOperation3"/>
+          <include name="afterMethod"/>
+          <include name="verifyRoomCategoryOperation2"/>
+        </methods>
+      </class> <!-- SelectHotelTC.HomePageTC2 -->
+    </classes>
+  </test> <!-- Test Classes(failed) -->
+</suite> <!-- Failed suite [Select Hotel Test Suite] -->
